@@ -65,7 +65,7 @@ def make_config(dnames, pnames, fnames, anames, mnames):
             conf[m] = {}
             conf[m]["name"] = m
 
-        conf["general"]["name"] = "ids-tester"
+        conf["general"]["name"] = "ai-ids-analyzer"
         conf["general"]["timeout"] = 600
         conf["general"]["dataset_type"] = "csv"
         conf["general"]["training_packet_dataset"] = "{}/training-packet.csv".format(d)

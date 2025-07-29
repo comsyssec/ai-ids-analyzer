@@ -12,9 +12,9 @@ from iutils.etc import load_configuration_file
 
 warnings.filterwarnings("ignore", message="X does not have valid feature *")
 
-class IDSTester:
+class AIIDSAnalyzer:
     def __init__(self, conf):
-        logging.info("Starting the IDSTester")
+        logging.info("Starting the AI-IDS-Analyzer")
         self.start_time = int(time.time())
         self.config = conf
         self.root_directory = conf["general"]["root_directory"]
@@ -83,13 +83,13 @@ class IDSTester:
         complete_training = False
         complete_test = False
 
-        logging.info("[IDS Tester] Load the dataset for training")
+        logging.info("[AI-IDS-Analyzer] Load the dataset for training")
         if self.data_type == "raw":
             self.packets["training"], self.windows["training"], self.steps = self.feature_extractor.run(phase="training")
         elif self.data_type == "csv":
             self.packets["training"], self.windows["training"], self.steps = self.dataset_handler.run(phase="training")
 
-        logging.info("[IDS Tester] Make the model based on the training set")
+        logging.info("[AI-IDS-Analyzer] Make the model based on the training set")
         if self.packets.get("training", None) or self.windows.get("training", None):
             if self.packets.get("training"):
                 logging.info(" - Training packet dataset: {}".format(len(self.packets["training"])))
@@ -98,13 +98,13 @@ class IDSTester:
             self.model_manager.run(phase="training", steps=self.steps)
             complete_training = True
 
-        logging.info("[IDS Tester] Load the dataset for testing")
+        logging.info("[AI-IDS-Analyzer] Load the dataset for testing")
         if self.data_type == "raw":
             self.packets["test"], self.windows["test"], _ = self.feature_extractor.run(phase="test")
         elif self.data_type == "csv":
             self.packets["test"], self.windows["test"], _ = self.dataset_handler.run(phase="test")
 
-        logging.info("[IDS Tester] Test the model based on the test set")
+        logging.info("[AI-IDS-Analyzer] Test the model based on the test set")
         if self.packets.get("test", None) or self.windows.get("test", None):
             if self.packets.get("test"):
                 logging.info(" - Test packet dataset: {}".format(len(self.packets["test"])))
@@ -113,7 +113,7 @@ class IDSTester:
             self.model_manager.run(phase="test")
             complete_test = True
 
-        logging.info("[IDS Tester] Report the performance results")
+        logging.info("[AI-IDS-Analyzer] Report the performance results")
         if complete_training and complete_test:
             self.result_reporter.set_steps(self.steps)
             self.result_reporter.run()
@@ -215,7 +215,7 @@ def main():
     conf = load_configuration_file(args.config, ".")
 
     logging.debug("configuration: {}".format(conf))
-    IDSTester(conf)
+    AIIDSAnalyzer(conf)
 
 if __name__ == "__main__":
 	main()
