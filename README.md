@@ -1,5 +1,8 @@
 # AI-IDS-Analyzer
 
+<img width="2368" height="1125" alt="ai-ids-analyzer" src="https://github.com/user-attachments/assets/8d549d83-62e3-4715-b3c3-5b8183851725" />
+
+
 ## Environment
 1. You can run this program on the machine where you can run Python
   - This program is tested on Ubuntu 22.04 and Ubuntu 20.04
