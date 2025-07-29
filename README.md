@@ -1,4 +1,4 @@
-# IDS Tester
+# AI-IDS-Analyzer
 
 ## Environment
 1. You can run this program on the machine where you can run Python
@@ -12,17 +12,17 @@
   - `sudo apt-get install -y python3-pip`
 
 2. Clone this repo on your local machine
-  - `git clone https://github.com/hw5773/ids-tester.git`
+  - `git clone https://github.com/comsyssec/ai-ids-analyzer.git`
 
 3. Upgrade pip
   - `pip3 install --upgrade pip`
 
 4. Install the Python packages
-  - `pip3 install -r requirements-version.txt`
+  - `pip3 install -r requirements.txt`
 
 ## How to run the tester
-1. Run the IDS tester
-  - `python3 ids-tester.py`
+1. Run the AI-IDS-Analyzer
+  - `python3 ai-ids-analyzer.py`
 
 2. Run the IDS tester with options
   - You can find the options by typing the following command
@@ -30,7 +30,6 @@
 
 ## How to Add Algorithms
  * You can add a new detector algorithm to the algorithms directory by python3 add_algorithm.py --name \<name of a new algorithm\> (e.g., `python3 add_algorithm.py --name decision_tree`)
- * You can add a new encoding algorithm to the encoders directory by python3 add_encoder.py --name \<name of a new encoder\> (e.g., `python3 add_encoder.py --name identity`)
  * You can add a new feature to the features directory by python3 add_feature.py --type \<flow/packet\> --name \<name of a new feature\> (e.g., `python3 add_feature.py --type flow --name iat`)
  * Please update a new setting by `python3 renew.py` when you add something
 
