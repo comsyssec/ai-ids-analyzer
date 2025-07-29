@@ -1,0 +1,14 @@
+psutil
+dpkt
+scapy
+numpy
+tensorflow[and-cuda]
+keras
+scikit-learn
+IPython
+tqdm
+pyyaml
+xgboost
+catboost
+lightgbm
+cuml
