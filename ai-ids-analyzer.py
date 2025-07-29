@@ -199,7 +199,7 @@ class AIIDSAnalyzer:
 
 def command_line_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", metavar="<configuration file>", help="Configuration file", type=str, default="config.yaml")
+    parser.add_argument("-c", "--config", metavar="<configuration file>", help="Configuration file", type=str, default="mirai.yaml")
     parser.add_argument("-l", "--log", metavar="<log level (DEBUG/INFO/WARNING/ERROR/CRITICAL)>", help="Log level (DEBUG/INFO/WARNING/ERROR/CRITICAL)", type=str, default="INFO")
     args = parser.parse_args()
     return args
