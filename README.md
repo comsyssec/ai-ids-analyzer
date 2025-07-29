@@ -1,6 +1,6 @@
 # AI-IDS-Analyzer: A Systematic Comparative Analysis Framework for AI-Based Intrusion Detection System
 
-## Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*
+Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*
 
 
 <img width="2368" height="1125" alt="ai-ids-analyzer" src="https://github.com/user-attachments/assets/8d549d83-62e3-4715-b3c3-5b8183851725" />
