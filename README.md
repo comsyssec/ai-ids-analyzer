@@ -91,3 +91,4 @@
 ### Reference
  * Please refer to the following link for the detail:
  * https://github.com/ahlashkari/CICFlowMeter/blob/master/ReadMe.txt
+ * [Under Review] Journal of Network and Computer Applications (SCIE, I.F.=8.0)
