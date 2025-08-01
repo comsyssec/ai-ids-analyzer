@@ -1,8 +1,5 @@
 # AI-IDS-Analyzer: A Systematic Comparative Analysis Framework for AI-Based Intrusion Detection System
 
-Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*
-
-
 <img width="2368" height="1125" alt="ai-ids-analyzer" src="https://github.com/user-attachments/assets/8d549d83-62e3-4715-b3c3-5b8183851725" />
 
 
@@ -93,5 +90,5 @@ Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo
  * flow_protocol: the protocol value of the flow: True/False
 ### Reference
  * Please refer to the following link for the detail:
- * https://github.com/ahlashkari/CICFlowMeter/blob/master/ReadMe.txt
- * [Under Review] Journal of Network and Computer Applications (SCIE, I.F.=8.0)
+   - https://github.com/ahlashkari/CICFlowMeter/blob/master/ReadMe.txt
+ * [Under Review] Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*. AI-IDS-Analyzer: A Systematic Comparative Analysis Framework for AI-Based Intrusion Detection System. Journal of Network and Computer Applications (SCIE, I.F.=8.0, 2025)
