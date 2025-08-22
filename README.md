@@ -91,4 +91,4 @@
 ### Reference
  * Please refer to the following link for the detail:
    - https://github.com/ahlashkari/CICFlowMeter/blob/master/ReadMe.txt
- * [Under Review] Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*. AI-IDS-Analyzer: A Systematic Comparative Analysis Framework for AI-Based Intrusion Detection System. Journal of Network and Computer Applications (SCIE, I.F.=8.0, 2025)
+ * [Under Review] Myeong-Ha Hwang, Jeonghyun Joo, Heewoon Kang, HyeJeong Jin, YooJin Kwon, Hyunwoo Lee*. AI-IDS-Analyzer: A Systematic Comparative Analysis Framework for AI-Based Intrusion Detection System. Computers & Security (SCIE, 2025)
